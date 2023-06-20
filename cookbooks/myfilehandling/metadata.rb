@@ -1,23 +1,20 @@
-name 'mywebserver'
+name 'myfilehandling'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
-description 'Installs/Configures mywebserver'
-long_description 'Installs/Configures mywebserver'
-version '0.2.2'
+description 'Installs/Configures myfilehandling'
+long_description 'Installs/Configures myfilehandling'
+version '0.1.5'
 chef_version '>= 13.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/mywebserver/issues'
+# issues_url 'https://github.com/<insert_org_here>/myfilehandling/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/mywebserver'
-
-depends 'mysql'
-depends 'chef-client', '~> 12.3.4'
+# source_url 'https://github.com/<insert_org_here>/myfilehandling'
